@@ -1,0 +1,17 @@
+create database farmacia;
+
+create table cliente(
+	id int PRIMARY key AUTO_INCREMENT,
+    nome varchar(50),
+    CPF varchar(14),
+    rg varchar(10),
+    dataNascimento date,
+    email varchar(50),
+    telefone int,
+    sexo varchar(1), 
+    dataCadastro date
+);
+
+
+insert into cliente (nome,CPF,rg,dataNascimento,email,telefone,sexo,dataCadastro)
+values ('Lucas','12345678910','12345678',CURRENT_TIMESTAMP,'lucasadqe',1213112313,'M',CURRENT_TIMESTAMP);
