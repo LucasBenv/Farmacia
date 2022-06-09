@@ -67,6 +67,7 @@ public class ClienteConsulta  extends JDialog{
 		contentPanel.add(labelId, gbc_labelId);
 		
 		textFieldId = new JTextField();
+		
 		textFieldId.setEnabled(false);
 		GridBagConstraints gbc_textFieldId = new GridBagConstraints();
 		gbc_textFieldId.gridwidth = 2;
